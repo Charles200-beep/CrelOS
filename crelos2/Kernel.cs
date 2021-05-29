@@ -9,6 +9,7 @@ namespace crelos2
     {
         protected override void BeforeRun()
         {
+            Console.Clear();
             Console.WriteLine("CarlOS [Version 10.036953] (c) Carl. All rights reserved.");
         }
 
@@ -29,6 +30,7 @@ namespace crelos2
 
                 case "cls":
                     Console.Clear();
+                    Console.WriteLine("CarlOS [Version 10.036953] (c) Carl. All rights reserved.");
                     break;
 
                 case "calc":
@@ -45,6 +47,35 @@ namespace crelos2
                     Calc(num1, num2, oper);
                     break;
 
+                case "help":
+                    Console.WriteLine("carl., cls, calc, shutdown, reboot");
+                    break;
+
+                case "shutdown":
+                    Console.Write("Are you sure you want to shutdown? (Y/N): ");
+                    string yesNoShutdown = Console.ReadLine();
+                    if (yesNoShutdown == "y" || yesNoShutdown == "Y")
+                    {
+                        Cosmos.System.Power.Shutdown();
+                    }
+                    else if (yesNoShutdown == "n" || yesNoShutdown == "N")
+                    {
+                        break;
+                    }
+                    break;
+
+                case "reboot":
+                    Console.Write("Are you sure you want to reboot? (Y/N): ");
+                    string yesNoReboot = Console.ReadLine();
+                    if (yesNoReboot == "y" || yesNoReboot == "Y")
+                    {
+                        Cosmos.System.Power.Reboot();
+                    }
+                    else if (yesNoReboot == "n" || yesNoReboot == "N")
+                    {
+                        break;
+                    }
+                    break;
             }
 
         }
