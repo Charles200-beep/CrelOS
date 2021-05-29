@@ -1,0 +1,9 @@
+C:\Users\charl\source\repos\crelos2\crelos2\bin\Release\netcoreapp2.0\cosmos\crelos2.deps.json
+C:\Users\charl\source\repos\crelos2\crelos2\bin\Release\netcoreapp2.0\cosmos\crelos2.dll
+C:\Users\charl\source\repos\crelos2\crelos2\bin\Release\netcoreapp2.0\cosmos\crelos2.pdb
+C:\Users\charl\source\repos\crelos2\crelos2\obj\Release\netcoreapp2.0\cosmos\crelos2.csprojAssemblyReference.cache
+C:\Users\charl\source\repos\crelos2\crelos2\obj\Release\netcoreapp2.0\cosmos\crelos2.AssemblyInfoInputs.cache
+C:\Users\charl\source\repos\crelos2\crelos2\obj\Release\netcoreapp2.0\cosmos\crelos2.AssemblyInfo.cs
+C:\Users\charl\source\repos\crelos2\crelos2\obj\Release\netcoreapp2.0\cosmos\crelos2.csproj.CoreCompileInputs.cache
+C:\Users\charl\source\repos\crelos2\crelos2\obj\Release\netcoreapp2.0\cosmos\crelos2.dll
+C:\Users\charl\source\repos\crelos2\crelos2\obj\Release\netcoreapp2.0\cosmos\crelos2.pdb
